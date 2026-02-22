@@ -2,5 +2,10 @@
 using namespace std;
 
 int main() {
-    cout << "Super Mario";
+    string firstName = "Super";
+    string lastName = "Mario";
+
+    string fullName = firstName + " " + lastName;
+
+    cout << fullName;
 }
