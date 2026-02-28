@@ -9,6 +9,6 @@ int main() {
     cin >> age;
 
     int birthYear = currentYear - age;
-
     cout << "You were born in: " << birthYear;
+    return 0;
 }
